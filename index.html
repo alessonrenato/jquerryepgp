@@ -25,7 +25,7 @@ jQuery(document).ready(function($){
   epgpfile         : 'epgp.lua',        // epgp.lua file name
   guild            : 'The Republic',         // Guild name (include captial letters and any spaces in the name)
   startEpgpHistory : 7,                 // EPGP Standings History - initial number of days to show prior to snapshot 
-  startLootHistory : 7,                 // Loot History - initial number of days to show prior to snapshot 
+  startLootHistory : 20,                 // Loot History - initial number of days to show prior to snapshot 
   addSliders       : true,              // Add slider to adjust the changes in ep/gp (green & red values) or the loot history popup
   maxHistory       : 30,                // Slider max number of days.
   baseGP           : '1000',               // Base GP
@@ -61,7 +61,7 @@ jQuery(document).ready(function($){
  $('#epgploot').epgp({
   epgpfile         : 'epgp.lua', // epgp.lua file name
   guild            : 'The Republic',  // Guild name (include captial letters and any spaces in the name)
-  startLootHistory : 2,          // Loot History - initial number of days to show prior to snapshot
+  startLootHistory : 20,          // Loot History - initial number of days to show prior to snapshot
   lootOnly         : true,       // if true, will only display a loot history table
   raidTime         : 4,          // Approximate raid time in hours (substracted from snapshot time to ensure loot drops are included)
   fixClass         : fix         // fix class for toon not in the database (alt in a different guild)
