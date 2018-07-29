@@ -3,9 +3,9 @@
 <title>EPGP</title>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-<!-- <script type="text/javascript" src="http://cdn.cavernoftime.com/api/tooltip.js"></script> -->
+<script type="text/javascript" src="https://cdn.cavernoftime.com/api/tooltip.js"></script>
 <!-- <script type="text/javascript" src="https://db.linebr.com/woltlk/static/widgets/power.js"></script> -->
-<script type="text/javascript" src="https://static.wowhead.com/widgets/power.js"></script>
+<!-- <script type="text/javascript" src="https://static.wowhead.com/widgets/power.js"></script> -->
 
 <script type="text/javascript" src="https://js/jquery.tablesorter.min.js"></script>
 <script type="text/javascript" src="https://js/jquery.jatt.min.js"></script>
@@ -37,7 +37,7 @@ jQuery(document).ready(function($){
   lootIcon         : 'images/plus.gif', // Icon to hover over to see a list of recent loot, styled in the css
   sort             : [3,1]              // sort table by 3rd column (PR column, 0 indexed) in descending order (1).
  }, {
-  wowhead          : 'www'               // German wowhead tooltips
+  wowhead          : ''               // German wowhead tooltips
  });
 
  // *** Loot ***
@@ -68,7 +68,7 @@ jQuery(document).ready(function($){
   raidTime         : 4,          // Approximate raid time in hours (substracted from snapshot time to ensure loot drops are included)
   fixClass         : fix         // fix class for toon not in the database (alt in a different guild)
  }, {
-  wowhead          : 'www'        // German wowhead tooltips
+  wowhead          : ''        // German wowhead tooltips
  });
 
  /* tooltip script - http://github.com/Mottie/Jatt */
