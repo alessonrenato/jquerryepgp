@@ -1,6 +1,6 @@
 /* EPGP page styles */
 /* import jQuery UI stylesheet for sliders */
-@import url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css);
+@import url(https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css);
 
 /* Overall page */
 body { background: #eee; color: #000; }
